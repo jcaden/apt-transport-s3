@@ -6,9 +6,9 @@ Uploaders: David Watson <dwatson@debian.org>
 Build-Depends: python3, debhelper (>= 9)
 Standards-Version: 3.9.6
 X-Python-Version: >= 3.0
-Homepage: https://github.com/Kurento/apt-transport-s3
-Vcs-Git: https://github.com/Kurento/apt-transport-s3.git
-Vcs-Browser: https://github.com/Kurento/apt-transport-s3/tree/debian/sid
+Homepage: https://github.com/Kurento/apt-transport-s3-kurento
+Vcs-Git: https://github.com/Kurento/apt-transport-s3-kurento.git
+Vcs-Browser: https://github.com/Kurento/apt-transport-s3-kurento
 
 Package: apt-transport-s3-kurento
 Architecture: all
@@ -20,4 +20,4 @@ Description: APT transport for privately held AWS S3 repositories
  .
  To start using S3 based repo it's enough to have IAM role on the server and to
  add line similar to the below to apt sources.list (more information in 'man
- apt-transport-s3'): deb s3://s3.amazonaws.com/BUCKETNAME wheezy main
+ apt-transport-s3'): deb s3://[region.]s3.amazonaws.com/BUCKETNAME wheezy main
