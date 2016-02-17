@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Installing boto3 library"
+pip3 install boto3
