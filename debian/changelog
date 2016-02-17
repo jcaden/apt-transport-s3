@@ -1,0 +1,25 @@
+apt-transport-s3 (1.2.1-1) unstable; urgency=medium
+
+  * fixing signature handling in d/wach
+  * fixing Vcs-Git url
+  * new upstream v1.2.1
+
+ -- Marcin Kulisz (kuLa) <debian@kulisz.net>  Thu, 08 Oct 2015 18:19:59 +0100
+
+apt-transport-s3 (1.2.0-1) unstable; urgency=medium
+
+  * added missing (from binary) manpage
+  * bumping up standards-verion to 3.9.6
+  * pointing VCS fields in d/control to the packaging branch for d/sid
+  * new upstream with patches for handling '+~ ' chars and modified error
+    handling for problematic URLs
+  * fixing dch
+  * fixed d/watch and added gpg sign handling
+
+ -- Marcin Kulisz (kuLa) <debian@kulisz.net>  Sun, 30 Aug 2015 13:44:09 +0100
+
+apt-transport-s3 (1.1.0-2) unstable; urgency=low
+
+  * Initial release (Closes: #756022)
+
+ -- Marcin Kulisz (kuLa) <debian@kulisz.net>  Thu, 14 Aug 2014 08:43:59 +0100
