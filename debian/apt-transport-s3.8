@@ -1,8 +1,8 @@
 .\" (C) Copyright 2014 Marcin Kulisz (kuLa) <marcin@bashton.com>,
-.TH APT-TRANSPORT-S3 8 "August 14, 2014"
+.TH APT-TRANSPORT-S3-KURENTO 8 "February 17, 2016"
 .SH NAME
 .SH DESCRIPTION
-apt-transport-s3 \- it's a package which contains apt transport ('plugin')
+apt-transport-s3-kurento \- it's a package which contains apt transport ('plugin')
 allowing apt to fetch files stored in private repositories held on AWS S3.
 
 .SH AWS Credentials
@@ -24,7 +24,7 @@ instead of HTTP(s), cdrom or FTP protocol
 should be used
 .br
 ex.
-.IR "deb s3://bucket_name.s3.amazonaws.com/ testing main contrib non-free"
+.IR "deb s3://[region.]s3.amazonaws.com/bucket_name testing main contrib non-free"
 
 .PP
 .SH EXAMPLE /etc/apt/s3auth.conf
