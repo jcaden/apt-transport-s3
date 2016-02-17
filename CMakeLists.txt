@@ -1,1 +1,1 @@
-set (PROJECT_VERSION 1.0.0)
+set (PROJECT_VERSION 1.2.2-dev)
